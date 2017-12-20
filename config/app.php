@@ -177,6 +177,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * 第三方服务
+         */
+        Modules\Monitor\Providers\MonitorServiceProvider::class,
+
     ],
 
     /*

@@ -1,0 +1,16 @@
+{
+    "name": "Monitor",
+    "alias": "monitor",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Monitor\\Providers\\MonitorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
