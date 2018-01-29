@@ -54,6 +54,34 @@ return [
             'engine' => null,
         ],
 
+        'mysql1' => [
+            'driver'      => 'mysql',
+            'host'        => env('DB_HOST1','127.0.0.1'),
+            'port'        => env('DB_PORT1', '3306'),
+            'database'    => env('DB_DATABASE1', 'forge'),
+            'username'    => env('DB_USERNAME1', 'forge'),
+            'password'    => env('DB_PASSWORD1', ''),
+            'charset'     => 'utf8',
+            'collation'   => 'utf8_general_ci',
+            'prefix'      => '',
+            'strict'      => false,
+            'engine'      => null,
+        ],
+
+        'mysql2' => [
+            'driver'      => 'mysql',
+            'host'        => env('DB_HOST2','127.0.0.1'),
+            'port'        => env('DB_PORT2', '3306'),
+            'database'    => env('DB_DATABASE2', 'forge'),
+            'username'    => env('DB_USERNAME2', 'forge'),
+            'password'    => env('DB_PASSWORD2', ''),
+            'charset'     => 'utf8',
+            'collation'   => 'utf8_general_ci',
+            'prefix'      => '',
+            'strict'      => false,
+            'engine'      => null,
+        ],
+
         'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),

@@ -15,10 +15,10 @@ class MonitorController extends Controller
     public function index()
     {
         //查看磁盘空间
-        $disk = exec('df -h', $diskResult, $diskOut);
-        dd($diskResult, $diskOut);
-        return view('monitor::monitor.index')
-            ->with('hehe', '卡卡');
+//        $disk = exec('df -h', $diskResult, $diskOut);
+//        dd($diskResult, $diskOut);
+        return view('monitor::monitor.test1');
+//            ->with('hehe', '卡卡');
     }
 
     /**

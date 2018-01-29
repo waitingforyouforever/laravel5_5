@@ -181,6 +181,7 @@ return [
          * 第三方服务
          */
         Modules\Monitor\Providers\MonitorServiceProvider::class,
+        App\Providers\CurlServiceProvider::class,
 
     ],
 
@@ -230,6 +231,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'Curl' => App\Facades\Curl::class,
 
     ],
 

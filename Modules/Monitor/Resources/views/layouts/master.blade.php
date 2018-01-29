@@ -11,6 +11,14 @@
         <script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
         <script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
         <script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
+        <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        {{--开发环境--}}
+        {{--<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>--}}
+        {{--<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>--}}
+        {{--生产环境--}}
+        {{--<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>--}}
+        {{--<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>--}}
 
         <title>Module Monitor</title>
     </head>
